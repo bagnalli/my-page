@@ -12,12 +12,15 @@ margin-right: 0;
 margin-top: 0;
 }
 
-
-
 header{
 display: flex;
 justify-content: column;
+
+/* colour and decoration */
 background-color: #cc2c2c;
+box-shadow: 0rem 0.05rem 0.8rem #0d0c0c;
+
+
 }
 
 nav{
@@ -31,13 +34,10 @@ nav{
     /* Colour and Style */
 }
 
-
 main {
     margin-left: 1rem;
     margin-right: 1rem;
 }
-
-
 
 footer{
     /* position */
@@ -52,6 +52,7 @@ footer{
     align-items: flex-end;
     /* Colour and Style */
     background-color: #cc2c2c;
+    box-shadow: 0rem -0.05rem 0.8rem #0d0c0c;
     
 }
 
@@ -77,6 +78,8 @@ footer{
 .nav-button:active {
     background-color: #cc2c2c;
     color: white;}
+
+/* IDs */
 
 #signed{
     padding-right: 1rem;
