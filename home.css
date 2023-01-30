@@ -5,6 +5,22 @@
     box-shadow: 0.1rem 0.1rem 0.1rem black;
 }
     
+/* ID */
+
+#profile-pic-row1{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+#profile-pic-row2{
+    width: 60%;
+    border-radius: 10rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    box-shadow: 1px 1px 10px red;
+}
 
 /* @media screen and (min-width: 800px) {
     #home-button{
