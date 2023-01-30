@@ -16,6 +16,7 @@ height: 100vh;
 }
 
 header{
+    position: fixed;
 display: flex;
 justify-content: column;
 
@@ -38,9 +39,10 @@ nav{
 main {
     display: flex;
     flex-direction: column;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     margin-left: 1rem;
     margin-right: 1rem;
+    padding-top: 100px;
 }
 
 footer{
@@ -83,6 +85,15 @@ footer{
     background-color:white ;
     color: #cc2c2c;}
 
+.red-words{
+    font-weight: bold;
+    color: #cc2c2c;
+}
+
+.cent-para{
+    text-align: center;
+}
+
 /* IDs */
 
 #signed{
@@ -93,7 +104,7 @@ footer{
     /* Media Queries */
     /* Desktop Adjustments */
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 821px){
 
 nav{
     flex-direction: row;

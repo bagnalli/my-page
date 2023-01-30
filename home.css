@@ -1,3 +1,9 @@
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+
 #home-button{
     background-color: #ffffff ;
     color: #cc2c2c;
@@ -20,6 +26,11 @@
     border-width: 2px;
     border-color: #ffffff;
     box-shadow: 1px 1px 10px red;
+}
+
+#steven-span{
+    margin-left: 7px;
+    color: #cc2c2c;
 }
 
 /* @media screen and (min-width: 800px) {
