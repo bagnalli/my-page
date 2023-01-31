@@ -126,8 +126,13 @@ ul {
 }
 
 .cent-para{
+    text-align:center;
+    margin-bottom: 0;
+}
+.left-para{
     text-align:left;
     margin-bottom: 0;
+    width: 100%
 }
 
 /* IDs */
