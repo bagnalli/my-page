@@ -1,0 +1,24 @@
+.about-me-sec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+#about-me-button{
+    background-color: #ffffff ;
+    color: #cc2c2c;
+    font-weight: bold;
+    box-shadow: 0.1rem 0.1rem 0.1rem black, -0.1rem 0.1rem 0.1rem black;
+}
+
+#nye-pic{
+    width: 80%;
+    border-radius: 1em;
+}
+
+#snowden-peak{
+    width: 80%;
+    border-radius: 1em;
+}

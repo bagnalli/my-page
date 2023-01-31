@@ -1,4 +1,4 @@
-/* Structure */
+/* Default Settings */
 *{
     /* Ease of use */
     color: #ffffff;
@@ -23,6 +23,12 @@ justify-content: column;
 /* colour and decoration */
 background-color: #cc2c2c;
 box-shadow: 0rem 0.05rem 0.8rem #0d0c0c;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
 }
 
 nav{
@@ -61,6 +67,12 @@ footer{
     box-shadow: 0rem -0.05rem 0.8rem #0d0c0c;
 }
 
+img{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    box-shadow: 1px 1px 10px red;
+}
 
 /* CLASSES */
 
