@@ -33,6 +33,16 @@ h1{
     font-weight: normal;
 }
 
+h3{
+    display: flex;
+    justify-content: left;
+    font-weight: normal; 
+    margin-bottom: 0;
+
+     /*Colour  */
+     color: #cc2c2c;
+}
+
 nav{
     /* flexbox */
     display: flex;
@@ -117,7 +127,6 @@ ul {
         padding: 1em;
         margin-bottom: 1em;
     }
-
 
 
 .red-words{
