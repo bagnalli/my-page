@@ -98,6 +98,8 @@ ul {
 
 /* CLASSES */
 
+/* NAV BAR CONTROL */
+
 .nav-button{
     display: block;
     text-align: center;
@@ -119,6 +121,9 @@ ul {
     background-color:white ;
     color: #cc2c2c;}
 
+/* SECTION CONTROL */
+
+
 .sec-post{
         border: solid black;
         display: flex;
@@ -127,6 +132,23 @@ ul {
         padding: 1em;
         margin-bottom: 1em;
     }
+
+.photo-sec-l{
+        display: flex;
+        justify-content: center;}
+
+.photo-sec-r{
+            display: flex;
+            justify-content: center;}
+
+.section-pic{
+        width: 80%;
+        border-radius: 1em;
+        
+    }
+
+
+/* MISC */
 
 
 .red-words{
@@ -153,10 +175,15 @@ ul {
 
 
 
+
+
+
+
+
     /* Media Queries */
 
     /* Desktop Adjustments */
-@media screen and (min-width: 821px){
+@media screen and (min-width: 950px){
 
 nav{
     flex-direction: row;
@@ -165,6 +192,60 @@ nav{
 
 .nav-button{
     margin-right: 2px;
+}
+
+.sec-post{
+    border: solid black;
+    display: flex;
+    align-items:flex-start ;
+    flex-direction: column;
+    padding: 1em;
+    margin-bottom: 1em;  
+}
+.sec-container-l{
+    /* border: solid black; */
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+
+.photo-sec-l{
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    
+}
+
+.text-sec-l{
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60vw;
+}
+.section-pic{
+    width: 80%;
+}
+
+.sec-container-r{
+    /* border: solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.photo-sec-r{
+    /* border: solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.text-sec-r{
+    /* border: solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60vw;
 }
 
 }
