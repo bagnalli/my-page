@@ -125,12 +125,16 @@ ul {
 
 
 .sec-post{
-        border: solid black;
+        /* border: solid black; */
         display: flex;
         align-items: center;
         flex-direction: column;
         padding: 1em;
         margin-bottom: 1em;
+    /* DESIGN */
+    border: 3px groove rgb(77, 76, 76);
+    border-radius: 2em;
+    background-color: #2f2d2d61;
     }
 
 .photo-sec-l{
@@ -195,12 +199,14 @@ nav{
 }
 
 .sec-post{
-    border: solid black;
     display: flex;
     align-items:flex-start ;
     flex-direction: column;
-    padding: 1em;
+    padding: 2em;
     margin-bottom: 1em;  
+    /* DESIGN */
+    /* border: 3px solid rgb(43, 42, 42);
+    border-radius: 2em; */
 }
 .sec-container-l{
     /* border: solid black; */
