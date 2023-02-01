@@ -37,6 +37,7 @@ h1{
 h3{
     display: flex;
     justify-content: center;
+    align-items: center;
     font-weight: normal; 
     width: 100%;
     margin-top: 0;
@@ -143,6 +144,7 @@ ul {
         border: 3px groove rgb(77, 76, 76);
         border-radius: 2em;
         background-color: #2f2d2d61;
+        font-size: .9em;
     }
     
 .photo-sec-l{
@@ -163,7 +165,7 @@ ul {
             display: flex;
             justify-content: center;
             width: 100%;
-            margin-top: 0;
+            margin-top: 10px;
             margin-bottom: 5px;
                  /*Colour  */
                  /* color: #cc2c2c; */
@@ -199,6 +201,15 @@ margin-bottom: 0;
     border: none;
     box-shadow: none;
     width: 100%;
+}
+
+.job-icon{
+    margin-left: 10px;
+    border: none;
+    box-shadow: none;
+    height: 1.5em;
+    width: 1.5em;
+    border-radius: .4em;
 }
 
 /* IDs */
@@ -249,8 +260,12 @@ margin-bottom: 0;
     justify-content: center;
 }
 
-/* Nav Buttons */
+/* Exp Page */
 
+#h1PS{
+    color: #cc2c2c;
+    width: 89vw;
+}
 
 /* Portfolio Page */
 
@@ -259,6 +274,7 @@ margin-bottom: 0;
     border-radius: 1em;
     margin-top: 1em;
 }
+
 
 
     /* Media Queries */
@@ -292,6 +308,7 @@ nav{
     /* DESIGN */
     /* border: 3px solid rgb(43, 42, 42);
     border-radius: 2em; */
+    font-size: 1em;
 }
 .sec-container-l{
     /* border: solid black; */
@@ -371,5 +388,21 @@ h2{
 #temp-post{
     align-items: center;
 }
+
+}
+
+/* Adjusted for small phone */
+
+@media screen and (max-width: 340px) {
+   
+header{ 
+ 
+    font-size: .6em;
+
+}
+
+.sec-post{
+    font-size: .7em;
+}    
 
 }
