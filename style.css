@@ -1,4 +1,4 @@
-/* Default Settings */
+/* Skeleton */
 *{
     /* Ease of use */
     color: #ffffff;
@@ -6,6 +6,7 @@
 }
 
 body {
+
 background-image: linear-gradient(#2f2d2d, #1e1c1c);
 /* background-color: #2f2d2d; */
 background-repeat: no-repeat;
@@ -35,8 +36,9 @@ h1{
 
 h3{
     display: flex;
-    justify-content: left;
+    justify-content: center;
     font-weight: normal; 
+    width: 100%;
     margin-bottom: 0;
 
      /*Colour  */
@@ -89,12 +91,13 @@ img{
 ul {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     list-style: none;
     margin: 0;
+    margin-top: 5px;
     padding-left: 35px;
-  }
-  
+}
+
 
 /* CLASSES */
 
@@ -120,10 +123,10 @@ ul {
 .nav-button:active {
     background-color:white ;
     color: #cc2c2c;}
-
-/* SECTION CONTROL */
-
-
+    
+    /* SECTION CONTROL */
+    
+    
 .sec-post{
         /* border: solid black; */
         display: flex;
@@ -131,43 +134,66 @@ ul {
         flex-direction: column;
         padding: 1em;
         margin-bottom: 1em;
-    /* DESIGN */
-    border: 3px groove rgb(77, 76, 76);
-    border-radius: 2em;
-    background-color: #2f2d2d61;
+        /* DESIGN */
+        border: 3px groove rgb(77, 76, 76);
+        border-radius: 2em;
+        background-color: #2f2d2d61;
     }
-
+    
 .photo-sec-l{
         display: flex;
         justify-content: center;}
-
+        
 .photo-sec-r{
             display: flex;
             justify-content: center;}
-
+            
 .section-pic{
-        width: 80%;
-        border-radius: 1em;
-        
-    }
-
-
+            width: 80%;
+            border-radius: 1em;
+                
+            }
+            
+.job-heading{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 0;
+            margin-bottom: 5px;
+                 /*Colour  */
+                 /* color: #cc2c2c; */
+        }
+            
 /* MISC */
-
-
+            
+            
 .red-words{
-    font-weight: bold;
-    color: #cc2c2c;
+font-weight: bold;
+color: #cc2c2c;
 }
-
+            
 .cent-para{
-    text-align:center;
-    margin-bottom: 0;
+text-align:center;
+margin-bottom: 0;
 }
 .left-para{
     text-align:left;
     margin-bottom: 0;
     width: 100%
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    /* border: solid black; */
+    
+}
+
+.icon-img{
+    border: none;
+    box-shadow: none;
+    width: 100%;
 }
 
 /* IDs */
@@ -177,14 +203,64 @@ ul {
     font-size: 50%;
     }
 
+    #profile-pic-row1{
+        display: flex;
+        justify-content: center;
+        padding-top: 1rem;
+    }
+    
+    #profile-pic-row2{
+        width: 60%;
+        border-radius: 100rem;
+        border-style: solid;
+        border-width: 2px;
+        border-color: #ffffff;
+        box-shadow: 1px 1px 10px red;
+    }
+    
+    #steven-span{
+        margin-left: 7px;
+        color: #cc2c2c;
+    }
 
 
+#social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#am-sect-social{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+}
 
 
+#fmos{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+/* Portfolio Page */
 
+#bobby-in-bed-pic{
+    width:80%;
+    border-radius: 1em;
+    margin-top: 1em;
+}
 
 
     /* Media Queries */
+    
+/* Tablet */
+
+@media screen and (min-width: 600px) and (max-width: 949px) {
+    #profile-pic-row2{
+        width: 40%;
+    }
+}
 
     /* Desktop Adjustments */
 @media screen and (min-width: 950px){
@@ -252,6 +328,39 @@ nav{
     flex-direction: column;
     justify-content: center;
     width: 60vw;
+}
+
+#social-container{
+    justify-content:space-around;
+}
+
+.icon {
+    width: 80px;
+    /* border: solid black; */
+    
+}
+
+h2{
+    margin-top: 0;
+    font-size: 4vw;
+}
+
+/* Home specific */
+/* Monitors */
+    #profile-pic-row2{
+    width: 25%;
+}
+
+/* Portfolio Page */
+
+#bobby-in-bed-pic{
+    width:70%;
+    border-radius: 1em;
+    margin-top: 1em;
+}
+
+#temp-post{
+    align-items: center;
 }
 
 }
