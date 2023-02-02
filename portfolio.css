@@ -1,7 +1,7 @@
-#portfolio-button{
-    background-color: #ffffff ;
-    color: #cc2c2c;
-    font-weight: bold;
-    box-shadow: .1rem .1rem 0.1rem black, -0.1rem 0.1rem 0.1rem black;
-    margin-right: 0.1rem;
+#portfolio-button {
+  background-color: #ffffff;
+  color: #cc2c2c;
+  font-weight: bold;
+  box-shadow: 0.1rem 0.1rem 0.1rem black, -0.1rem 0.1rem 0.1rem black;
+  margin-right: 0.1rem;
 }
